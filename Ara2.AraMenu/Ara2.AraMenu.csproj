@@ -31,11 +31,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ara2, Version=1.2.5946.20635, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ara2.1.2.5946.20635\lib\net40\Ara2.dll</HintPath>
+      <HintPath>..\packages\Ara2.1.2.5946.20635\lib\net40\Ara2.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,20 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AraComponentsServer\Components\AraMenu.cs" />
-    <Compile Include="AraComponentsServer\Components\AraMenuItens.cs" />
+    <Compile Include="Ara2ComponentsServer\Components\AraMenu.cs" />
+    <Compile Include="Ara2ComponentsServer\Components\AraMenuItens.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Ara2\AraMenu\CREDITS.md" />
-    <None Include="Ara2\AraMenu\LICENSE.md" />
+    <None Include="Ara2\Components\AraMenu\CREDITS.md" />
+    <None Include="Ara2\Components\AraMenu\LICENSE.md" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ara2\AraMenu\AraMenu.js" />
+    <Content Include="Ara2\Components\AraMenu\AraMenu.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ara2\AraMenu\files\" />
+    <Folder Include="Ara2\Components\AraMenu\files\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
