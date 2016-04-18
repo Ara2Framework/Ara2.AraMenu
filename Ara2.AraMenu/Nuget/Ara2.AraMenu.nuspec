@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Ara2.AraMenu</id>
+        <version>$version$</version>
+        <title>Ara2.AraMenu</title>
+        <authors>rafaelleonel</authors>
+        <owners>rafaelleonel</owners>
+        <licenseUrl>http://www.araframework.com.br/license</licenseUrl>
+        <projectUrl>http://www.araframework.com.br</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Componente do AraFramework</description>
+        <copyright>Copyright ©  2016</copyright>
+        <language>pt-BR</language>
+        <dependencies>
+            <dependency id="Ara2" version="1.2.6" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Ara2\Components\AraMenu\AraMenu.js" target="content\Ara2\Components\AraMenu\AraMenu.js" />
+        <file src="..\Ara2\Components\AraMenu\CREDITS.md" target="content\Ara2\Components\AraMenu\CREDITS.md" />
+        <file src="..\Ara2\Components\AraMenu\LICENSE.md" target="content\Ara2\Components\AraMenu\LICENSE.md" />
+
+        <file src="..\Ara2\Components\AraMenu\files\fg_menu.css" target="content\Ara2\Components\AraMenu\files\fg_menu.css" />
+        <file src="..\Ara2\Components\AraMenu\files\fg_menu.js" target="content\Ara2\Components\AraMenu\files\fg_menu.js" />
+        <file src="..\Ara2\Components\AraMenu\files\fg_menu_add.css" target="content\Ara2\Components\AraMenu\files\fg_menu_add.css" />
+        
+      
+        <file src="..\bin\Release\Ara2.AraMenu.dll" target="lib\net40\Ara2.AraMenu.dll" />
+    </files>
+</package>
